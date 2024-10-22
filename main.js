@@ -20,11 +20,11 @@ const getAdvice = async () => {
                 ADVICE #${adviceId}
             </div>
 
-            <div class="my-4 text-light_cyan text-xl text-center font-bold font-manrope" id="advice_quotes">
+            <div class="px-8 my-4 text-light_cyan text-xl text-center font-bold font-manrope" id="advice_quotes">
             &#34${adviceQuote}&#34
             </div>
 
-            <div class="my-8 p-4">
+            <div class="my-4 p-4">
                 <img class="sm:hidden" src="images/pattern-divider-mobile.svg" alt="advice-line-img">
                 <img class="hidden sm:block" src="images/pattern-divider-desktop.svg" alt="advice-line-img">
 
