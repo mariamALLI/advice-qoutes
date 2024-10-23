@@ -1,7 +1,7 @@
 const adviceBox = document.querySelector('#advice_box');
 const adviceQuoteId = document.querySelector('#advice_quote_id')
 const fetchBtn = document.querySelector('#fetch-btn')
-const clickFetch = document.querySelector('#click-fetch')
+
 
 
 const url = 'https://api.adviceslip.com/advice';
