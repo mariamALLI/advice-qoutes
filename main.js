@@ -17,7 +17,7 @@ const getAdvice = async () => {
             const adviceQuote = data.slip.advice
             adviceBox.innerHTML = `
             <div class="text-neon_green font-bold font-manrope text-sm my-3" id="advice_quote_id">
-                ADVICE #${adviceId}
+               <h1> ADVICE #${adviceId} </h1>
             </div>
 
             <div class="px-8 my-4 text-light_cyan text-xl text-center font-bold font-manrope" id="advice_quotes">
